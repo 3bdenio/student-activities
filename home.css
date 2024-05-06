@@ -214,7 +214,7 @@ img {
 /* ==========footer============= */
 .footer {
   background-color: #E5E5E5;
-    background: url(/student-activities/img/download.png) no-repeat;
+    background: url("img/download.png") no-repeat;
   background-size: cover;
   position: absolute;
   text-align: center;
