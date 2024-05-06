@@ -309,6 +309,7 @@ body{
     font-size: 15px;
   }
   .phone {
+    color: white;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     color: var(--body-font);
     position: absolute;
