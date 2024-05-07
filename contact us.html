@@ -18,20 +18,25 @@
     <body>
         <!-- Navigation -->
         <header>
-          <form action="">
-            <input type="search" placeholder="Search here ...">
-            <i class="fa fa-search"></i>
-        </form>
-          <img src="img/logo.png" class="logo">
-              <nav class="navbar">
-                  <ul class="navbar">
-                      <a href="home.html">الصفحة الرئيسية</a>
-                      <a href="#">الأخبار</a> 
-                      <a href="about_us.html"> المعهد</a> 
-                      <a href="contact us.html">تواصل معنا</a> 
-                  </ul>
-              </nav>
-      </header>
+        <nav class="nav">
+        <i class="uil uil-bars navOpenBtn"></i>
+        <img src="https://www.metmans.edu.eg/siteAssets/images/white-logo.png" class="logo">
+
+        <ul class="nav-links">
+        <i class="uil uil-times navCloseBtn"></i>
+        <li><a href="home.html" class="active">الرئيسية</a></li>
+        <li><a href="#">الأخبار</a></li>
+        <li><a href="about.html">عن المعهد</a></li>
+        <li><a href="contact us.html">تواصل معنا</a></li>
+        </ul>
+
+        <i class="uil uil-search search-icon" id="searchIcon"></i>
+        <div class="search-box">
+        <i class="uil uil-search search-icon"></i>
+        <input type="text" placeholder="ابحث هنا..." />
+        </div>
+    </nav>
+    </header>
     <section class = "contact-section">
       
       <div class = "contact-bg">
@@ -44,7 +49,7 @@
           <div>
             <span><i class = "fas fa-mobile-alt"></i></span>
             <span>الهاتف.</span>
-            <span class = "text">050 2245713</span>
+            <span class = "text">2245713 050</span>
           </div>
           <div>
             <span><i class = "fas fa-envelope-open"></i></span>
@@ -93,8 +98,8 @@
         <img src="https://www.metmans.edu.eg/siteAssets/images/white-logo.png" alt="" class="logo_footer">
         <p class="address">المنصورة - الطريق الدائري</p>
 
-            <p class="phone">2245747 050</p> 
-            <div class="phone_icon">
+        <p class="phone">2245747 050</p> 
+        <div class="phone_icon">
             <i class="fa-solid fa-phone"></i>
         </div>
         <div class="CU">
@@ -122,13 +127,13 @@
     <i class="fa-brands fa-linkedin"></i></a>
         </div>
     
-  <div class="notifications">
+     <div class="notifications">
         <div class="head">
-<p class="head">Get notifications</p> 
+<p class="head">لمتابعتنا</p> 
     </div>
     <div class="body">
 <p>
-    The latest news, articles, sent to your inbox.
+    لمعرفة اخر الاخبار الخاصة بنا، يمكنك الاشتراك فى النشرة الاخبارية
 </p>
     </div> 
 </div>
@@ -136,7 +141,7 @@
 <input type="text" required="required" placeholder="Email Address">
 </div>
 <div class="b1">
-    <a href="#">Subscribe</a>
+    <a href="#">اشترك معنا</a>
 </div> 
 <div class="important">
 <p>روابط تهمك</p>
@@ -157,5 +162,5 @@
     <a href="#" class="news">الاخبار</a>
 </div>
 </div>
-  </body>
+</body>
 </html>
